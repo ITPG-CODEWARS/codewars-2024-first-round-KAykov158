@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-white">
+        <img class ="w-full h-full absolute -z-50 brightness-50 " src="/Image/bg.jpg">
+        <div class="z-10">
+            <nav  class="flex bg-cyan-700 items-center w-full">
+                <img class="w-14 h-14" src="/Image/logo.png">
+                <ul class="flex gap-24 items-center justify-center w-full">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Trains</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div class="h-screen justify-center flex flex-col mx-32 -mt-10">
+                <h1 class="text-white text-9xl font-bold w-full align-middle">Train Land</h1>
+                <h1 class="text-white text-3xl w-1/4">Learn helpful and intrestinf information about diffrent trains.</h1>
+                <div class="mt-10">
+                    <a href="trains.html" class="bg-cyan-700 rounded-3xl text-6xl font-semibold hover:bg-transparent hover:border-cyan-700 text-white duration-300 hover:border px-5 py-2">All Trains</a>
+                </div>
+            </div>
+            
+            <div class="flex gap-60 items-center justify-center bg-white">
+                <div class="flex gap-60 items-center justify-center bg-white">
+                    <div class="relative w-1/4 h-80 rounded-full overflow-hidden group">
+                        <img class="w-full h-full object-cover group-hover:brightness-50" src="/Image/Avelia Horizon.jpg" />
+                        <div class="absolute inset-0  flex-col flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <span class="text-white text-xl font-bold">Name: Avelia Horizon</span>
+                            <span class="text-white text-xl font-bold">Speed: 350km/h </span>
+                            <span class="text-white text-xl font-bold">Model creation: 2018 </span>
+                            <a href="#" class="text-xl text-black font-bold bg-white rounded-full px-5 py-2">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="relative w-1/4 h-80 rounded-full overflow-hidden group">
+                        <img class="w-full h-full object-cover group-hover:brightness-50" src="/Image/Simens Velaro.jpg" />
+                        <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <span class="text-white text-xl font-semibold">Name: Siemens Velaro</span>
+                            <span class="text-white text-xl font-bold">Speed: 350km/h </span>
+                            <span class="text-white text-xl font-bold">Model creation: 2000 </span>
+                            <a href="#" class="text-xl text-black font-bold bg-white rounded-full px-5 py-2">Learn More</a>
+
+                        </div>
+                    </div>
+                    <div class="relative w-1/4 h-80 rounded-full overflow-hidden group">
+                        <img class="w-full h-full object-cover group-hover:brightness-50" src="/Image/0 Series Shinkansen.jpg" />
+                        <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <span class="text-white text-xl font-semibold">Name: 0 Series Shinkansen</span>
+                            <span class="text-white text-xl font-bold">Speed: 210km/h </span>
+                            <span class="text-white text-xl font-bold">Model creation: 1964 </span>
+                            <a href="#" class="text-xl text-black font-bold bg-white rounded-full px-5 py-2">Learn More</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
