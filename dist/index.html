@@ -7,52 +7,49 @@
         <link rel="stylesheet" href="style.css"/>
         <link rel="icon" href="/Image/logo.png"/>
         <script src="https://cdn.tailwindcss.com"></script>
-
         <script src="main.js"></script>
-
     </head>
-    <body class="bg-white">
-        <img class ="w-full h-full absolute -z-50 brightness-50 " src="/Image/bg.jpg">
-        <div class="z-10">
-
-            <div class="h-screen justify-center flex flex-col mx-32 -mt-10">
-                <h1 class="text-white text-9xl font-bold w-full align-middle">Train Land</h1>
-                <h1 class="text-white text-3xl w-1/4">Learn helpful and intresting information about diffrent trains.</h1>
+    <body class="w-screen overflow-x-hidden">
+        <img class="w-screen h-screen absolute -z-50 brightness-50" src="/Image/bg.jpg">
+        <div class="z-10 w-screen px-4 md:px-8">
+            <div class="h-screen flex flex-col justify-center items-start text-center mx-auto md:items-center md:text-left md:px-8 lg:px-32">
+                <h1 class="text-white text-4xl font-bold md:text-6xl lg:text-9xl">Train Land</h1>
+                <h2 class="text-white text-xl mt-2 md:text-2xl lg:text-3xl">Learn helpful and interesting information about different trains.</h2>
                 <div class="mt-10">
-                    <a href="trains.html" class="bg-cyan-700 rounded-3xl text-6xl font-semibold hover:bg-transparent hover:border-cyan-700 text-white duration-300 hover:border px-5 py-2">All Trains</a>
+                    <a href="trains.html" class="bg-cyan-700 rounded-3xl text-2xl font-semibold hover:bg-transparent hover:border-cyan-700 text-white duration-300 hover:border px-4 py-2 md:text-4xl">All Trains</a>
                 </div>
             </div>
             
-            <div class="flex gap-60 items-center justify-center bg-white pb-5 pt-5">
-                <div class="flex gap-60 items-center justify-center bg-white">
-                    <div class="relative w-1/4 h-80 rounded-full overflow-hidden group">
-                        <img class="w-full h-full object-cover group-hover:brightness-50" src="/Image/Avelia Horizon.jpg" />
-                        <div class="absolute inset-0  flex-col flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <span class="text-white text-xl font-bold">Name: Avelia Horizon</span>
-                            <span class="text-white text-xl font-bold">Speed: 350km/h </span>
-                            <span class="text-white text-xl font-bold">Model creation: 2018 </span>
-                            <a href="1aveliaHorizon.html" class="text-xl text-black font-bold bg-white rounded-full px-5 py-2">Learn More</a>
-                        </div>
+            <div class="flex flex-col gap-10 items-center justify-center p-5 md:flex-row md:flex-wrap md:gap-8 lg:gap-10">
+                <div class="relative w-full h-64 md:w-1/3 md:h-80 lg:w-1/4 rounded-full overflow-hidden group hover:scale-110 duration-500 ease-in-out">
+                    <img class="w-full h-full object-cover group-hover:brightness-50 transition duration-300" src="/Image/Avelia Horizon.jpg" />
+                    <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <span class="text-white text-base font-bold md:text-lg">Name: Avelia Horizon</span>
+                        <span class="text-white text-base font-bold md:text-lg">Speed: 350km/h </span>
+                        <span class="text-white text-base font-bold md:text-lg">Model creation: 2018</span>
+                        <a href="1aveliaHorizon.html" class="mt-2 text-sm text-black font-bold   rounded-full px-4 py-1 md:text-base">Learn More</a>
                     </div>
-                    <div class="relative w-1/4 h-80 rounded-full overflow-hidden group">
-                        <img class="w-full h-full object-cover group-hover:brightness-50" src="/Image/Bombardier Zefiro.jpg" />
-                        <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <span class="text-white text-xl font-semibold">Name: Bombardier Zefiro</span>
-                            <span class="text-white text-xl font-bold">Speed: 360km/h </span>
-                            <span class="text-white text-xl font-bold">Model creation: 2008 </span>
-                            <a href="2bombardierZefiro.html" class="text-xl text-black font-bold bg-white rounded-full px-5 py-2">Learn More</a>
+                </div>
 
-                        </div>
+                <div class="relative w-full h-64 md:w-1/3 md:h-80 lg:w-1/4 rounded-full overflow-hidden group hover:scale-110 duration-500 ease-in-out">
+                    <img class="w-full h-full object-cover group-hover:brightness-50 transition duration-300" src="/Image/Bombardier Zefiro.jpg" />
+                    <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <span class="text-white text-base font-bold md:text-lg">Name: Bombardier Zefiro</span>
+                        <span class="text-white text-base font-bold md:text-lg">Speed: 360km/h </span>
+                        <span class="text-white text-base font-bold md:text-lg">Model creation: 2008</span>
+                        <a href="2bombardierZefiro.html" class="mt-2 text-sm text-black font-bold   rounded-full px-4 py-1 md:text-base">Learn More</a>
                     </div>
-                    <div class="relative w-1/4 h-80 rounded-full overflow-hidden group">
-                        <img class="w-full h-full object-cover group-hover:brightness-50" src="/Image/0 Series Shinkansen.jpg" />
-                        <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <span class="text-white text-xl font-semibold">Name: 0 Series Shinkansen</span>
-                            <span class="text-white text-xl font-bold">Speed: 210km/h </span>
-                            <span class="text-white text-xl font-bold">Model creation: 1964 </span>
-                            <a href="3seriesShinkansen.html" class="text-xl text-black font-bold bg-white rounded-full px-5 py-2">Learn More</a>
-                        </div>
+                </div>
+
+                <div class="relative w-full h-64 md:w-1/3 md:h-80 lg:w-1/4 rounded-full overflow-hidden group hover:scale-110 duration-500 ease-in-out">
+                    <img class="w-full h-full object-cover group-hover:brightness-50 transition duration-300" src="/Image/0 Series Shinkansen.jpg" />
+                    <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <span class="text-white text-base font-bold md:text-lg">Name: 0 Series Shinkansen</span>
+                        <span class="text-white text-base font-bold md:text-lg">Speed: 210km/h </span>
+                        <span class="text-white text-base font-bold md:text-lg">Model creation: 1964</span>
+                        <a href="3seriesShinkansen.html" class="mt-2 text-sm text-black font-bold   rounded-full px-4 py-1 md:text-base">Learn More</a>
                     </div>
+                </div>
             </div>
         </div>
     </body>
